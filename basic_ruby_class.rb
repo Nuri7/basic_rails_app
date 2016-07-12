@@ -1,9 +1,3 @@
-class ApplicationRecord < ActiveRecord::Base
-  self.abstract_class = true
-
-
-
-
 	class Animal
 		attr_accessor :name, :type 
 
@@ -46,8 +40,6 @@ class ApplicationRecord < ActiveRecord::Base
 	superdog1 = SuperDog.new("Sfido")
 
 	animal1.walk
-	dog.walk
+	dog1.walk
 	superdog1.walk
 
-
-end
